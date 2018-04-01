@@ -7,7 +7,9 @@
  */
 	var days = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 	var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
-	var date = prompt("Please enter date in dd/mm/yyyy format", new Date());
+	
+//	Ask date from user
+	var date = prompt("Please enter date in dd/mm/yyyy format");
 
 	function getMonth(){
 		return months[date.getMonth()];

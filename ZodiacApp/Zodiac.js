@@ -76,8 +76,6 @@ var zodiac = [
 
 // write a function to call appropriate zodiacName:
 function astSign() {
-	console.log("working")
-	
 	var userInput = document.getElementById("your-sign").value.toLowerCase()
 	
 	var sign = document.getElementById("yourSign")
@@ -91,13 +89,11 @@ function astSign() {
 
 			range.innerHTML = zodiac[i].birthdayRange
 			attributes.innerHTML = zodiac[i].attributes
-			img.src = zodiac[i].picture
 			return
 		} else {
 			sign.innerHTML = "oops! That's not a sign. Try again"
 			range.innerHTML = " "
 			attributes.innerHTML = " "
-			img.src = "http://courtneysgamecoderocks.com/ZodiacProject/img/wrong.png"
 		}
 	}
 }

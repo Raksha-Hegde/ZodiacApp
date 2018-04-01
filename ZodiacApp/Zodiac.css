@@ -1,5 +1,5 @@
 body {
-	background-color: #2e2c32;
+	background-color: #006400;
 }
 
 .main-container {
@@ -7,8 +7,8 @@ body {
     margin: auto;
 }
 
-.formS {
-	background-color: #2e2c32;
+.forms {
+	background-color: #006400;
 	width: 50%;
     margin: auto;
 }
@@ -27,12 +27,12 @@ h2 {
 }
 
 button {
+	cursor: pointer;
     margin: 10px auto;
-    background-color: #33bbff;
+    background-color: #2e2c32;
     font-family: candal;
     font-weight: bold;
     text-align: center;
-    font-size: 100%;
     display: inline-block;
     border: none;
     color: white;
@@ -47,9 +47,4 @@ button {
     width: 100%;
     font-family: open sans;
     font-style: normal;
-}
-
-#zodiacImage {
-	width: 100%;
-    
 }
